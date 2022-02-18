@@ -1,0 +1,36 @@
+﻿body
+{
+    border:solid;
+    border-color: red;
+}
+
+nav {
+    border-top: thin #5b7d87 solid;
+    border-bottom: thin #5b7d87 solid;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+nav .btn {
+        background-color: blue;
+        color: antiquewhite;
+
+}
+
+        nav .btn:hover {
+            font-weight: bold;
+
+        }
+
+.jumbotron {
+    background-color: burlywood;
+    border:solid;
+    text-align:center;
+}
+
+.footer {
+    background-color: burlywood;
+    text-align: center;
+    border:solid;
+
+}

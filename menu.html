@@ -3,101 +3,131 @@
 <!--created by JNB Feb 15 2022-->
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <meta charset="utf-8" />
     <title>Jumpin' James Java Stand'</title>
+
+    <!--Does some thing to make bootstrap work-->
+    <meta name="viewport" content="width=device-width" , initial-scale="1" , shrink-to-fit="no"
+
+        <!-- Bootstrap CDN copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles/css_styles.css" type="text/css" />
+
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px 0px 5px 10px;
+        }
+
+        table {
+            width: 100%;
+        }
+
+        th {
+            height: 25px;
+        }
+    </style>
 </head>
+
+<!------------------------------------------------------------------------------------------------------------->
+
 <main>
 
-    <header>
-        <h1>Jumpin' James Java Stand</h1>
-        <style>
-            table, th, td {
-                border: 1px solid black;
-                border-collapse: collapse;
-                padding: 5px 0px 5px 10px;
-            }
-            table {width:100%;}
-            th {height:25px;}
+    <header class="jumbotron">
 
-        </style>
+        <h1>Jumpin' James Java Stand</h1>
+        <h2 class="font-italic">Extraordinary coffee!</h2>
+        <h3>Solving the worlds problems with caffeine everyday!</h3>
+
     </header>
 
     <nav>
-        <hr/>
-        <p><a href="index.html">Home</a></p>
-        <p><a href="menu.html">Menu</a></p>
-        <p><a href="contact.html">Contact Us</a></p>
+
+        <div>
+            <a class="btn" href="index.html">Home</a>
+            <a class="btn" href="menu.html">Menu</a>
+            <a class="btn" href="contact.html">Contact Us</a>
+        </div>
+
     </nav>
 
-    <article id="menu">
-        <table>
-            <tr>
-                <th>Regular old drip coffee</th>
-                <th>Fancy Espresso drinks</th>
-                <th>Soda</th>
-            </tr>
+    <main>
 
-            <tr>
-                <td>Large $3.00</td>
-                <td>Large $3.00</td>
-                <td>Large $3.00</td>
-            </tr>
+        <article id="menu">
+            <table>
+                <tr>
+                    <th>Regular old drip coffee</th>
+                    <th>Fancy Espresso drinks</th>
+                    <th>Soda</th>
+                </tr>
 
-            <tr>
-                <td>Medium $2.00</td>
-                <td>Medium $2.00</td>
-                <td>Medium $2.00</td>
-            </tr>
+                <tr>
+                    <td>Large $3.00</td>
+                    <td>Large $3.00</td>
+                    <td>Large $3.00</td>
+                </tr>
 
-            <tr>
-                <td>Small $1.00</td>
-                <td>Small $1.00</td>
-                <td>Small $1.00</td>
-            </tr>
+                <tr>
+                    <td>Medium $2.00</td>
+                    <td>Medium $2.00</td>
+                    <td>Medium $2.00</td>
+                </tr>
 
-        </table>
+                <tr>
+                    <td>Small $1.00</td>
+                    <td>Small $1.00</td>
+                    <td>Small $1.00</td>
+                </tr>
 
-        <table>
-            <tr>
-                <th>Regular old drip coffee</th>
-                <th>Fancy Espresso drinks</th>
-                <th>Soda</th>
-            </tr>
+            </table>
 
-            <tr>
-                <td>Large $3.00</td>
-                <td>Large $3.00</td>
-                <td>Large $3.00</td>
-            </tr>
+            <table>
+                <tr>
+                    <th>Regular old drip coffee</th>
+                    <th>Fancy Espresso drinks</th>
+                    <th>Soda</th>
+                </tr>
 
-            <tr>
-                <td>Medium $2.00</td>
-                <td>Medium $2.00</td>
-                <td>Medium $2.00</td>
-            </tr>
+                <tr>
+                    <td>Large $3.00</td>
+                    <td>Large $3.00</td>
+                    <td>Large $3.00</td>
+                </tr>
 
-            <tr>
-                <td>Small $1.00</td>
-                <td>Small $1.00</td>
-                <td>Small $1.00</td>
-            </tr>
+                <tr>
+                    <td>Medium $2.00</td>
+                    <td>Medium $2.00</td>
+                    <td>Medium $2.00</td>
+                </tr>
 
-        </table>
+                <tr>
+                    <td>Small $1.00</td>
+                    <td>Small $1.00</td>
+                    <td>Small $1.00</td>
+                </tr>
 
-
-    </article>
-
-    <footer>
-        <p>555 Main St, Richmond VA 23235</p>
-        <p>555-555-1212</p>
-        <p>&copy; 2021 James Balcomb. All rights reserved.</p>
-    </footer>
-
-    </article>
-        
+            </table>
 
 
-</main>
+        </article>
+
+        <footer class="footer">
+            <p>
+                555 Main St, Richmond VA 23235<br />1-555-555-1212<br />&copy; 2021 James Balcomb. All rights reserved.
+            </p>
+        </footer>
+
+        <!-- CDN links copied from https://getbootstrap.com/docs/4.1/getting-started/introduction/ -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+
+    </main>
 
 </html>
